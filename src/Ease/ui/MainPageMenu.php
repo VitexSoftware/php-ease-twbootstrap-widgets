@@ -60,6 +60,9 @@ class MainPageMenu extends \Ease\Html\DivTag
         );
     }
 
+    /**
+     * Assembly widget
+     */
     public function finalize()
     {
         $this->well->addItem($this->row);
