@@ -2,7 +2,6 @@
 /**
  * EasePHPbricks - TwitterBootstrap Switch
  *
- * 
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2016 Vitex Software
  */
@@ -11,15 +10,19 @@ namespace Ease\ui;
 
 class TWBSwitch extends \Ease\Html\CheckboxTag
 {
+    /**
+     * Properties holder
+     * @var array
+     */
     public $properties = [];
 
     /**
-     * Zobrazuje HTML Checkbox
+     * Twitter Bootstrap
      *
-     * @param string $name       jméno tagu
-     * @param bool   $checked    stav checkboxu
-     * @param string $value      vracená hodnota checkboxu
-     * @param array  $properties parametry tagu
+     * @param string $name       tag name
+     * @param bool   $checked    checkbox state
+     * @param string $value      returned value
+     * @param array  $properties tag parameters
      */
     public function __construct($name, $checked = false, $value = null,
                                 $properties = null)
@@ -35,11 +38,19 @@ class TWBSwitch extends \Ease\Html\CheckboxTag
         $this->setProperties($properties);
     }
 
+    /**
+     * Properties setter
+     * 
+     * @param array $properties values to change
+     */
     public function setProperties($properties)
     {
         $this->properties = array_merge($this->properties, $properties);
     }
 
+    /**
+     * Include requied assets in page
+     */
     public function finalize()
     {
         \Ease\TWB\Part::twBootstrapize();

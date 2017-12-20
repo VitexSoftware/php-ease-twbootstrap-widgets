@@ -19,6 +19,35 @@ Object oriented PHP Framework for easy&fast writing small/middle sized apps.
 
 ---
 
+Bricks Included
+===============
+
+MainPageMenu
+------------
+
+Well framed large icons
+
+![MainPageMenu](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/MainPageMenu.png "Main Page Menu screenshot")
+
+```php
+$mpmenu = new \Ease\ui\MainPageMenu();
+$mpmenu->addMenuItem('logo.png', 'Caption', 'https://url/');
+```
+
+TwitterBootstrap Switch
+-----------------------
+
+Ease support for http://bootstrapswitch.com/ 
+
+![TWBSwitch](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/TWBSwitch.png "Main Page Menu screenshot")
+
+```php
+new Ease\ui\TWBSwitch('swname', true, 1,['onText' => 'YES', 'offText' => 'NO']);
+```
+
+The **libjs-bootstrap-switch** package with requied js/css assets is already present in our repository https://www.vitexsoftware.cz/repo.php
+
+
 Installation
 ------------
 
