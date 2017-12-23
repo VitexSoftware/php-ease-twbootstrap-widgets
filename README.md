@@ -5,7 +5,6 @@ EasePHP Bricks
 
 Object oriented PHP Framework for easy&fast writing small/middle sized apps.
 
-[![Source Code](http://img.shields.io/badge/source-VitexSoftware/Ease-PHP-Bricks-blue.svg?style=flat-square)](https://github.com/VitexSoftware/Ease-PHP-Bricks)
 [![Latest Version](https://img.shields.io/github/release/VitexSoftware/Ease-PHP-Bricks.svg?style=flat-square)](https://github.com/VitexSoftware/Ease-PHP-Bricks/releases)
 [![Software License](https://img.shields.io/badge/license-GPL-brightgreen.svg?style=flat-square)](https://github.com/VitexSoftware/Ease-PHP-Bricks/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/VitexSoftware/Ease-PHP-Bricks/master.svg?style=flat-square)](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks)
