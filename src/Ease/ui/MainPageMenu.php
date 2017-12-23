@@ -42,13 +42,14 @@ class MainPageMenu extends \Ease\Html\DivTag
     }
 
     /**
+     * Add Item to mainpage Menu
      * 
-     * @param type $image
-     * @param type $title
-     * @param type $url
-     * @return type
-     */
-    public function addMenuItem($image, $title, $url)
+     * @param string $image url
+     * @param string $title caption
+     * @param string $url   image link href url
+     * 
+     * @return \Ease\Html\ATag
+     */    public function addMenuItem($image, $title, $url)
     {
         return $this->row->addItem(
                 new \Ease\Html\ATag(
@@ -59,6 +60,9 @@ class MainPageMenu extends \Ease\Html\DivTag
         );
     }
 
+    /**
+     * Assembly widget
+     */
     public function finalize()
     {
         $this->well->addItem($this->row);
