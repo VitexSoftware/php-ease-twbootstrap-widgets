@@ -21,7 +21,7 @@ doc:
 
 test:
 	echo sudo service postgresql start ; sudo service postgresql start
-	phpunit --bootstrap tests/Bootstrap.php
+	phpunit --bootstrap tests/Bootstrap.php --configuration tests/configuration.xml tests
 	codecept run
 
 deb:

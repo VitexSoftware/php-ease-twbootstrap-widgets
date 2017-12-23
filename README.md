@@ -47,6 +47,18 @@ new Ease\ui\TWBSwitch('swname', true, 1,['onText' => 'YES', 'offText' => 'NO']);
 
 The **libjs-bootstrap-switch** package with requied js/css assets is already present in our repository https://www.vitexsoftware.cz/repo.php
 
+Boolean LED
+-----------
+
+Show light or dark circle in given color.
+
+![Boolean LED](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/BooleanLED.png "Widget in green and red")
+
+```php
+new \Ease\ui\BooleanLED(false, 'green');
+```
+
+
 
 Installation
 ------------
