@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Ease\ui;
 
 /**
@@ -8,15 +7,20 @@ namespace Ease\ui;
  *
  * @author vitex
  */
-class BooleanLED extends \Ease\Html\SvgTag
+class SemaforLight extends \Ease\Html\SvgTag
 {
     public $properties = [
         'xmlns' => "http://www.w3.org/2000/svg"
     ];
 
-    public function __construct($state = true, $color = 'green',
-                                $properties = [])
+    public function __construct($color = 'white', $properties = [])
     {
+        if($color === false){
+            $color = 'danger';
+        }
+        if($color === true) {
+            $color = 'success';
+        }
         $properties = array_merge($this->properties, $properties);
         parent::__construct('   
     <g>
@@ -25,12 +29,12 @@ class BooleanLED extends \Ease\Html\SvgTag
        rx="8"
        cy="9"
        cx="9"
-       stroke="'.$color.'" 
-       style="opacity:0.33200001;fill:'.$this->getColorCode($color, $state).';fill-opacity:1;stroke-width:1" />
+       stroke="'.self::adjustBrightness(self::colorNameToHex($color), 200).'" 
+       style="fill:'.self::colorNameToHex($color).';fill-opacity:1;stroke-width:1" />
   </g>
 ', $properties);
     }
-
+//;
     /**
      * converts an html color name to a hex color value
      * if the input is not a color name, the original value is returned
@@ -43,6 +47,12 @@ class BooleanLED extends \Ease\Html\SvgTag
     {
         // standard 147 HTML color names
         $colors = array(
+            'muted' => '636c72',
+            'primary' => '0275d8',
+            'success' => '5cb85c',
+            'info' => '5bc0de',
+            'warning' => 'f0ad4e',
+            'danger' => 'd9534f ',
             'aliceblue' => 'F0F8FF',
             'antiquewhite' => 'FAEBD7',
             'aqua' => '00FFFF',
@@ -207,9 +217,9 @@ class BooleanLED extends \Ease\Html\SvgTag
      * 
      * @return type
      */
-    public function getColorCode($color, $state)
+    public function getColorCode($color)
     {
-        return self::adjustBrightness(self::colorNameToHex($color), $state ? 200 : -80 ) ;
+        return self::colorNameToHex($color);
     }
 
     /**
