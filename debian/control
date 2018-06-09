@@ -4,7 +4,7 @@ Standards-Version: 3.8.4
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
-Homepage: http://vitexsoftware.cz/ease.php
+Homepage: https://github.com/VitexSoftware/Ease-PHP-Bricks
 
 Package: ease-framework-bricks
 Depends: ${misc:Depends},ease-framework
