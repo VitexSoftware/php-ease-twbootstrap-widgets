@@ -1,8 +1,3 @@
-src/Ease/*.php                   /usr/share/php/Ease
-src/Ease/Html/*.php              /usr/share/php/Ease/Html
-src/Ease/Logger/*.php            /usr/share/php/Ease/Logger
-src/Ease/JQuery/*.php            /usr/share/php/Ease/JQuery
-src/Ease/SQL/*.php               /usr/share/php/Ease/SQL
-src/Ease/TWB/*.php               /usr/share/php/Ease/TWB
+src/Ease/ui/*.php           /usr/share/php/EaseBricks/ui
+debian/composer.json	    /usr/share/php/EaseBricks
 
-debian/composer.json		 /usr/share/php/Ease

@@ -11,8 +11,8 @@ build:
 	echo build
 
 clean:
-	rm -rf debian/ease-framework
-	rm -rf debian/ease-framework-doc
+	rm -rf debian/ease-framework-bricks
+	rm -rf debian/ease-framework-bricks-doc
 	rm -rf debian/*.log
 	rm -rf docs/*
 

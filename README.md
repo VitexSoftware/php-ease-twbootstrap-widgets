@@ -8,8 +8,8 @@ Object oriented PHP Framework for easy&fast writing small/middle sized apps.
 [![Latest Version](https://img.shields.io/github/release/VitexSoftware/Ease-PHP-Bricks.svg?style=flat-square)](https://github.com/VitexSoftware/Ease-PHP-Bricks/releases)
 [![Software License](https://img.shields.io/badge/license-GPL-brightgreen.svg?style=flat-square)](https://github.com/VitexSoftware/Ease-PHP-Bricks/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/VitexSoftware/Ease-PHP-Bricks/master.svg?style=flat-square)](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks)
-[![Total Downloads](https://img.shields.io/packagist/dt/vitexsoftware/ease-php-bricks.svg?style=flat-square)](https://packagist.org/packages/vitexsoftware/ease-php-bricks)
-[![Docker pulls](https://img.shields.io/docker/pulls/vitexsoftware/ease-php-bricks.svg)](https://hub.docker.com/r/vitexsoftware/ease-php-bricks/)
+[![Total Downloads](https://img.shields.io/packagist/dt/vitexsoftware/ease-bricks.svg?style=flat-square)](https://packagist.org/packages/vitexsoftware/ease-php-bricks)
+[![Docker pulls](https://img.shields.io/docker/pulls/vitexsoftware/ease-bricks.svg)](https://hub.docker.com/r/vitexsoftware/ease-php-bricks/)
 [![Downloads](https://img.shields.io/packagist/dt/vitexsoftware/ease-bricks.svg?style=flat-square)](https://packagist.org/packages/vitexsoftware/ease-php-bricks)
 [![Latest stable](https://img.shields.io/packagist/v/vitexsoftware/ease-bricks.svg?style=flat-square)](https://packagist.org/packages/vitexsoftware/ease-php-bricks)
 

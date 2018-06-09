@@ -24,4 +24,4 @@ define('DB_PORT', 5432);
 define('DB_TYPE', 'pgsql');
 
 \Ease\Shared::user(new Ease\Anonym());
-\Ease\Shared::webPage(new Ease\WebPage());
+\Ease\Shared::webPage(new Ease\TWB\WebPage());
