@@ -57,6 +57,16 @@ Show light or dark circle in given color.
 new \Ease\ui\BooleanLED(false, 'green');
 ```
 
+Tree View
+---------
+
+Ease Support for http://jonmiles.github.io/bootstrap-treeview/ A simple and elegant solution to displaying hierarchical tree structures (i.e. a Tree View) 
+
+![TreeView](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/TreeView.png "TreeView Widget")
+
+```php
+new \Ease\ui\TBWTreeView('tree', 'data: getTree()');
+```
 
 
 Installation
