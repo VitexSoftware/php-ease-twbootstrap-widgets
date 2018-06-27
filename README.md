@@ -68,9 +68,29 @@ Ease Support for http://jonmiles.github.io/bootstrap-treeview/ A simple and eleg
 new \Ease\ui\TBWTreeView('tree', 'data: getTree()');
 ```
 
+Locale Select
+-------------
+
+Simple chooser of availble locales
+
+```php
+new \Ease\ui\LangSelect()
+```
+
+![LocaleSelect](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/LocaleSelect.png "Locale select Widget")
 
 Installation
 ------------
+
+
+Composer:
+---------
+
+    composer require vitexsoftware/ease-bricks
+
+
+Older versions and its requirements https://packagist.org/packages/vitexsoftware/ease-bricks
+
 
 To get Docker image:
 
@@ -97,13 +117,6 @@ In this case please add this to your app composer.json:
             }
         }
     ]
-
-
-
-Composer:
----------
-
-    composer require vitexsoftware/ease-bricks
 
 Links
 =====

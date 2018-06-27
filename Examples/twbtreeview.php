@@ -55,6 +55,6 @@ var tree = [
 }
 ');
 
-$oPage->addItem(new ui\TWBTreeView('trname', 'data: getTree()'));
+$oPage->addItem( new TWB\Container(new ui\TWBTreeView('trname', 'data: getTree()')) );
 
 $oPage->draw();
