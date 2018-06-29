@@ -79,6 +79,18 @@ new \Ease\ui\LangSelect()
 
 ![LocaleSelect](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/LocaleSelect.png "Locale select Widget")
 
+Live Age
+--------
+
+Show live age based on unix timestamp
+
+```php
+new \Ease\ui\LiveAge(1530280004);    
+```
+
+
+![LiveAge](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/LiveAge.png "Live Age Widget")
+
 Installation
 ------------
 
