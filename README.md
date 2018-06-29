@@ -91,6 +91,18 @@ new \Ease\ui\LiveAge(1530280004);
 
 ![LiveAge](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/LiveAge.png "Live Age Widget")
 
+Sign In form
+------------
+
+Classic form with username input password input and submit button
+
+```php
+new \Ease\ui\SignInForm();
+```
+
+![Sign In](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/SignIn.png "Sign In form")
+
+
 Installation
 ------------
 
