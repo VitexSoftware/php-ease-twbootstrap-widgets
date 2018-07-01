@@ -103,6 +103,17 @@ new \Ease\ui\SignInForm();
 ![Sign In](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/SignIn.png "Sign In form")
 
 
+Password Input
+--------------
+
+With eye icon to show plaintext
+
+```php
+new PasswordInput($this->passwordField);
+```
+![Password Input](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/PaswordInput.png "Password input")
+
+
 Installation
 ------------
 

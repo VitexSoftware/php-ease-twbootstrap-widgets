@@ -14,8 +14,16 @@ namespace Ease\ui;
  */
 class SignInForm extends \Ease\TWB\Form
 {
+    /**
+     *
+     * @var string
+     */
     public $userNameField = 'username';
-    public $passwordField = 'passwoerd';
+    /**
+     *
+     * @var string 
+     */
+    public $passwordField = 'password';
 
     public function __construct($formAction = null, $formMethod = 'post',
                                 $tagProperties = null)
@@ -24,7 +32,7 @@ class SignInForm extends \Ease\TWB\Form
             $tagProperties);
         $this->addInput(new \Ease\Html\InputTextTag($this->userNameField),
             _('Username'), _('Login'));
-        $this->addInput(new \Ease\Html\InputPasswordTag($this->passwordField),
+        $this->addInput(new PasswordInput($this->passwordField),
             _('Password'), '');
     }
 
