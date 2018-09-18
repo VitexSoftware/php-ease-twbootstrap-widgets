@@ -1,7 +1,8 @@
-ease-framework-bricks (0.3) UNRELEASED; urgency=low
+ease-framework-bricks (0.5) experimenta; urgency=low
 
+  * Browsing History added
+  * Release v0.5
   * TreeView added
   * Release v0.3
 
-
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sun, 30 Apr 2017 11:32:37 +0200
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Tue, 18 Sep 2018 11:36:43 +0200
