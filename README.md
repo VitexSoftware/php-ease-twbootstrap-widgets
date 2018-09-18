@@ -111,7 +111,15 @@ With eye icon to show plaintext
 ```php
 new PasswordInput($this->passwordField);
 ```
-![Password Input](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/PaswordInput.png "Password input")
+![Password Input](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/PasswordInput.png "Password input")
+
+Browsing History
+----------------
+
+```
+new BrowsingHistory();
+``` 
+![Browsing History](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/BrowsingHistory.png "Browsing History")
 
 
 Installation

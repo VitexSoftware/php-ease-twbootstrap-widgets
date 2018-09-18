@@ -22,7 +22,7 @@ class PasswordInput extends \Ease\Html\DivTag
      * @param string $value      Plaintext password
      * @param array  $properties Poroperties for password input
      */
-    public function __construct($name, $value = null,$properties = [])
+    public function __construct($name, $value = null, $properties = [])
     {
         $inpass = new \Ease\Html\InputPasswordTag($name, $value);
         $inpass->setTagID();
