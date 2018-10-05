@@ -6,8 +6,7 @@
  * @copyright  2015-2018 Spoje.Net
  */
 
-namespace SpojeNet\System\ui;
-
+namespace Ease\ui;
 /**
  * Page TOP.
  */

@@ -122,6 +122,15 @@ new BrowsingHistory();
 ![Browsing History](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/BrowsingHistory.png "Browsing History")
 
 
+Sticky note
+----------------
+
+```
+new StickyNote();
+``` 
+![Sticky Note](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/StickyNote.png "Sticky Note")
+
+
 Installation
 ------------
 
