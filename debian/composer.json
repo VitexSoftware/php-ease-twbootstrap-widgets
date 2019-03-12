@@ -17,7 +17,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "vitexsoftware.ease-framework": "*"
+        "vitexsoftware_ease-framework": "*"
     },
     "type": "library",
     "homepage": "http://v.s.cz/ease.php",

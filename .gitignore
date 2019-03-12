@@ -16,3 +16,5 @@ composer.lock
 /debian/ease-framework-bricks.debhelper.log
 /debian/ease-framework-bricks-doc.substvars
 /debian/ease-framework-bricks-doc.debhelper.log
+/debian/ease-framework-bricks-doc/
+/debian/ease-framework-bricks/
