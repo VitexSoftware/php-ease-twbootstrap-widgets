@@ -1,5 +1,5 @@
 {
-    "name": "ease-bricks",
+    "name": "vitexsoftware.ease-bricks",
     "description": "Addons for PHP Framework (debianized)",
     "version": "0.4",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "ease-framework": "*"
+        "vitexsoftware.ease-framework": "*"
     },
     "type": "library",
     "homepage": "http://v.s.cz/ease.php",
