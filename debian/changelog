@@ -1,63 +1,14 @@
-ease-framework (1.2.3-1) UNRELEASED; urgency=low
+ease-framework-bricks (0.7) UNRELEASED; urgency=medium
 
-  [ Cybervitexus ]
-  * Debian package build updates
-  * Spaces in tag with or without properties fix
-  * Debian package build update
-  * Debian package build update
+  * Rename package in debian for Composer 2.0
 
-  [ vitex ]
-  * Namespaces fixed on jquery ui dialog class
-  * Debian Package Composer update
-  * Fix NULL handling when create SET type query
-  * Fixed Insert Set SQL fragment generation
-  * PHP Framework for Ease of writing Applications (debian version)
-    1.1.2-stable-6 partPropertiesToString code is back Mailer code
-    update Geting status messages in WebPage fixed
-  * PHP Framework for Ease of writing Applications (debian version)
-    1.1.2-1 partPropertiesToString code is back Mailer code update
-    Geting status messages in WebPage fixed
-  * partPropertiesToString code is back Mailer code update Geting status
-    messages in WebPage fixed
-  * partPropertiesToString code is back Mailer code update Geting status
-    messages in WebPage fixed
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
-  * Rename isAssoc() to be PSR1 compilant
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Tue, 12 Mar 2019 16:45:03 +0100
 
-  [ Vítězslav Dvořák ]
-  * Unit tests Update
-  * Unit tests Update
-  * Another Unit tests Updates Added generatin of Debian package ease-
-    framework-doc
-  * Clean unwanted files in repository
-  * Clean unwanted files in repository
-  * Fixed wrong sanitize of boolean $_REQUEST values
-  * Fixed wrong sanitize of boolean $_REQUEST values
-  * Fixed wrong sanitize of boolean $_REQUEST values
-  *     Release v1.2.3
-  *     Release v1.2.3
+ease-framework-bricks (0.5) experimenta; urgency=low
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sun, 30 Apr 2017 11:32:37 +0200
+  * Browsing History added
+  * Release v0.5
+  * TreeView added
+  * Release v0.3
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Tue, 18 Sep 2018 11:36:43 +0200

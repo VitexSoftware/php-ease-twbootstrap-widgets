@@ -62,10 +62,92 @@ Show light or dark circle in given color.
 new \Ease\ui\BooleanLED(false, 'green');
 ```
 
+Tree View
+---------
+
+Ease Support for http://jonmiles.github.io/bootstrap-treeview/ A simple and elegant solution to displaying hierarchical tree structures (i.e. a Tree View) 
+
+![TreeView](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/TreeView.png "TreeView Widget")
+
+```php
+new \Ease\ui\TBWTreeView('tree', 'data: getTree()');
+```
+
+Locale Select
+-------------
+
+Simple chooser of availble locales
+
+```php
+new \Ease\ui\LangSelect()
+```
+
+![LocaleSelect](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/LocaleSelect.png "Locale select Widget")
+
+Live Age
+--------
+
+Show live age based on unix timestamp
+
+```php
+new \Ease\ui\LiveAge(1530280004);    
+```
+
+
+![LiveAge](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/LiveAge.png "Live Age Widget")
+
+Sign In form
+------------
+
+Classic form with username input password input and submit button
+
+```php
+new \Ease\ui\SignInForm();
+```
+
+![Sign In](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/SignIn.png "Sign In form")
+
+
+Password Input
+--------------
+
+With eye icon to show plaintext
+
+```php
+new PasswordInput($this->passwordField);
+```
+![Password Input](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/PasswordInput.png "Password input")
+
+Browsing History
+----------------
+
+```
+new BrowsingHistory();
+``` 
+![Browsing History](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/BrowsingHistory.png "Browsing History")
+
+
+Sticky note
+----------------
+
+```
+new StickyNote();
+``` 
+![Sticky Note](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/StickyNote.png "Sticky Note")
 
 
 Installation
 ------------
+
+
+Composer:
+---------
+
+    composer require vitexsoftware/ease-bricks
+
+
+Older versions and its requirements https://packagist.org/packages/vitexsoftware/ease-bricks
+
 
 To get Docker image:
 
@@ -92,13 +174,6 @@ In this case please add this to your app composer.json:
             }
         }
     ]
-
-
-
-Composer:
----------
-
-    composer require vitexsoftware/ease-bricks
 
 Links
 =====

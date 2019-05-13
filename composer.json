@@ -15,7 +15,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\Ease\\ui\\": "tests/src/Ease/ui"
+            "Test\\Ease\\ui\\": "tests/src/Ease/ui",
+            "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease",
+            "Test\\Ease\\TWB\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease/TWB"
         }
     },
     "minimum-stability": "dev",

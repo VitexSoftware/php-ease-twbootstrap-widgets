@@ -55,8 +55,8 @@ class TWBSwitch extends \Ease\Html\CheckboxTag
     public function finalize()
     {
         \Ease\TWB\Part::twBootstrapize();
-        $this->includeCss('/javascript/twitter-bootstrap/css/bootstrap-switch.css');
-        $this->includeJavascript('/javascript/twitter-bootstrap/js/bootstrap-switch.js');
+        $this->includeCss('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.4/css/bootstrap2/bootstrap-switch.css');
+        $this->includeJavascript('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.4/js/bootstrap-switch.js');
         $this->addJavascript('$("[name=\''.$this->getTagName().'\']").bootstrapSwitch({'.\Ease\TWB\Part::partPropertiesToString($this->properties).'})',
             null, true);
     }
