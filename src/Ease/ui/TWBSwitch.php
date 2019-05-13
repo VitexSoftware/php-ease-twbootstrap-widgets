@@ -2,6 +2,7 @@
 /**
  * EasePHPbricks - TwitterBootstrap Switch
  *
+ * @link       https://github.com/Bttstrp/bootstrap-switch 
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
  * @copyright  2016 Vitex Software
  */
@@ -17,7 +18,7 @@ class TWBSwitch extends \Ease\Html\CheckboxTag
     public $properties = [];
 
     /**
-     * Twitter Bootstrap
+     * Twitter Bootstrap switch
      *
      * @param string $name       tag name
      * @param bool   $checked    checkbox state
