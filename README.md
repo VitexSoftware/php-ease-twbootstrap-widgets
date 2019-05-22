@@ -135,6 +135,36 @@ new StickyNote();
 ``` 
 ![Sticky Note](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/StickyNote.png "Sticky Note")
 
+Selectizer trait
+----------------
+
+Apply Selectize.js to InputBox or Select
+
+```php
+class Selector extends \Ease\Html\SelectTag
+{
+    use \Ease\ui\Selectizer;
+}
+
+$properties = [
+    'valueField' => 'value',
+    'labelField' => 'key',
+    'searchField' => ['key', 'value']
+];
+
+$options = [
+    ['key' => 'red', 'value' => 'Red'],
+    ['key' => 'blue', 'value' => 'Blue'],
+    ['key' => 'green', 'value' => 'Green'],
+    ['key' => 'yellow', 'value' => 'Yellow'],
+];
+
+$s = new Selector('selector');
+$s->selectize($properties, $options);
+``` 
+![Selectizer](https://raw.githubusercontent.com/VitexSoftware/Ease-PHP-Bricks/master/Selectizer.png "Selectizer")
+
+
 
 Installation
 ------------
