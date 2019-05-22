@@ -15,6 +15,7 @@ namespace Ease\ui;
  */
 trait Selectizer
 {
+
     /**
      * Selectize.js for Ease Input/Select widgets
      * 
@@ -23,7 +24,9 @@ trait Selectizer
      */
     public function selectize($settings = [], $values = [])
     {
-        $this->setTagID();
+        if (empty($this->getTagID())) {
+            $this->setTagID();
+        }
 
         if ($values) {
             $settings['options'] = $values;
