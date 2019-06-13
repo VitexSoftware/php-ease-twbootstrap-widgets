@@ -22,7 +22,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "vitexsoftware/ease-framework": "*"
+        "vitexsoftware/ease-framework": "dev-master"
     },
     "require-dev": {
         "apigen/apigen": "^4.",
