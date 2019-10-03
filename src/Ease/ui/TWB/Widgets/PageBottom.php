@@ -6,7 +6,7 @@
  * @copyright  2015 Spoje.Net
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 class PageBottom extends \Ease\Html\FooterTag
 {

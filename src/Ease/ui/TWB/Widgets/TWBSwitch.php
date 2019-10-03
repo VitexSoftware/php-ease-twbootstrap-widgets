@@ -7,7 +7,7 @@
  * @copyright  2016 Vitex Software
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 class TWBSwitch extends \Ease\Html\CheckboxTag
 {

@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 /**
  * Description of PasswordInput

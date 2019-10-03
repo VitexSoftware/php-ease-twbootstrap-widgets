@@ -6,7 +6,7 @@
  * @copyright  2015 Spoje.Net
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 class MainMenu extends \Ease\Html\NavTag
 {

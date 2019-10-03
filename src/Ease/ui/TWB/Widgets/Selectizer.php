@@ -6,7 +6,7 @@
  * @copyright (c) 2019, Vitex Software
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 /**
  * Description of GroupChooser

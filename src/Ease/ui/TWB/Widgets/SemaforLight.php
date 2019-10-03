@@ -1,6 +1,6 @@
 <?php
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 /**
  * Show light or dark circle in given color

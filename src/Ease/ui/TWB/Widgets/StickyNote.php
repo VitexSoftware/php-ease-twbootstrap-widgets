@@ -6,7 +6,7 @@
  * @copyright  2016-2018 Vitex Software
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 /**
  * Description of StickyNote
  *

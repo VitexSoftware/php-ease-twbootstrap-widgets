@@ -7,7 +7,7 @@
  * @copyright  2016-2017 Vitex Software
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 class MainPageMenu extends \Ease\Html\DivTag
 {

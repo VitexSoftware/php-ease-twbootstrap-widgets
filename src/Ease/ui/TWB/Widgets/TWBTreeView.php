@@ -7,7 +7,7 @@
  * @copyright  2018 Vitex Software
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 
 class TWBTreeView extends \Ease\Html\DivTag
 {

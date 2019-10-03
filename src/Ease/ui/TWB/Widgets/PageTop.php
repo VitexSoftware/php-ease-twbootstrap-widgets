@@ -6,7 +6,7 @@
  * @copyright  2015-2018 Spoje.Net
  */
 
-namespace Ease\ui;
+namespace Ease\TWB\Widgets;
 /**
  * Page TOP.
  */
