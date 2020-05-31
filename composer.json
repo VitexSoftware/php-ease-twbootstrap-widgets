@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ease\\TWB\\Widgets\\": "src/Ease/ui"
+            "Ease\\TWB\\Widgets\\": "src/Ease/ui/TWB/Widgets"
         }
     },
     "autoload-dev": {
