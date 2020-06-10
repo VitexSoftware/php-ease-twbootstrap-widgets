@@ -10,7 +10,7 @@ override_dh_auto_test:
 	echo tests temporarly skipped for now in rules file
 
 override_dh_install:
-	./debian/apigendoc.sh
+	#./debian/apigendoc.sh
 	dh_install
-	sed -e "/includeCss/c\        \$$this->includeCss(\'\/javascript\/bootstrap\/css\/bootstrap-switch.css\');" -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/TWBSwitch.php 
-	sed -e "/includeJavascript/c\        \$$this->includeJavascript(\'\/javascript\/bootstrap\/js\/bootstrap-switch.js\');"   -i debian/ease-framework-bricks/usr/share/php/EaseBricks/ui/TWBSwitch.php 
+	sed -e "/includeCss/c\        \$$this->includeCss(\'\/javascript\/bootstrap\/css\/bootstrap-switch.css\');" -i debian/php-ease-bootstrap-widgets/usr/share/php/EaseTWBWidgets/TWBSwitch.php
+	sed -e "/includeJavascript/c\        \$$this->includeJavascript(\'\/javascript\/bootstrap\/js\/bootstrap-switch.js\');"   -i debian/php-ease-bootstrap-widgets/usr/share/php/EaseTWBWidgets/TWBSwitch.php 

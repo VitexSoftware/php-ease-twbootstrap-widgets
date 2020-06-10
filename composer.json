@@ -1,5 +1,5 @@
 {
-    "name": "vitexsoftware/ease-twbootstrap-widgets",
+    "name": "vitexsoftware/ease-bootstrap-widgets",
     "description": "EasePHP framework addons and code snipplets",
     "authors": [
         {
@@ -22,7 +22,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "vitexsoftware/ease-twbootstrap": "*"
+        "vitexsoftware/ease-bootstrap": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^8"

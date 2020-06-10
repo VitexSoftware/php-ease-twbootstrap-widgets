@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for ease-framework-bricks
+# postinst script for ease-bootstrap-widgets
 #
 # see: dh_installdeb(1)
 
@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 
-        composer-global-update deb/ease-bricks
+        composer-global-update deb/ease-bootstrap-widgets
 
     ;;
 

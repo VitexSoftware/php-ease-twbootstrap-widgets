@@ -1,3 +1,4 @@
-src/Ease/ui/*.php           /usr/share/php/EaseBricks/ui
-debian/composer.json	    /usr/share/php/EaseBricks
+
+src/Ease/TWB/Widgets/*.php           /usr/share/php/EaseTWBWidgets
+debian/composer.json	    		/usr/share/php/EaseTWBWidgets
 
