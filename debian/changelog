@@ -1,8 +1,13 @@
-php-ease-bootstrap-widgets (0.10) UNRELEASED; urgency=medium
+php-ease-bootstrap-widgets (0.11) UNRELEASED; urgency=medium
 
+  [ Vítězslav Dvořák ]
   * Selectized
 
- -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Thu, 23 May 2019 23:24:56 +0200
+  [ CyberVitexus ]
+  * twbootstrap renamed to bootstrap
+  * twbootstrap renamed to bootstrap
+
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Sat, 20 Jun 2020 13:16:31 +0200
 
 ease-framework-bricks (0.7) UNRELEASED; urgency=medium
 
