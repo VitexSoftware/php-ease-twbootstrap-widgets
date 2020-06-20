@@ -7,8 +7,9 @@ php-ease-bootstrap-widgets (0.11) UNRELEASED; urgency=medium
   * twbootstrap renamed to bootstrap
   * twbootstrap renamed to bootstrap
   * Release v0.11
+  * Release v0.11
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Sat, 20 Jun 2020 13:20:31 +0200
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Sat, 20 Jun 2020 14:19:16 +0200
 
 ease-framework-bricks (0.7) UNRELEASED; urgency=medium
 
