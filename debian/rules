@@ -11,6 +11,8 @@ override_dh_auto_test:
 
 override_dh_install:
 	#./debian/apigendoc.sh
+	jq '.address = "'`dpkg-parsechangelog | sed -n 's/^Version: //p'`'"' debian/composer.json |sponge debian/composer.json
 	dh_install
 	sed -e "/includeCss/c\        \$$this->includeCss(\'\/javascript\/bootstrap\/css\/bootstrap-switch.css\');" -i debian/php-ease-bootstrap-widgets/usr/share/php/EaseTWBWidgets/TWBSwitch.php
 	sed -e "/includeJavascript/c\        \$$this->includeJavascript(\'\/javascript\/bootstrap\/js\/bootstrap-switch.js\');"   -i debian/php-ease-bootstrap-widgets/usr/share/php/EaseTWBWidgets/TWBSwitch.php 
+

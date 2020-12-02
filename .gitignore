@@ -18,3 +18,11 @@ composer.lock
 /debian/ease-framework-bricks-doc.debhelper.log
 /debian/ease-framework-bricks-doc/
 /debian/ease-framework-bricks/
+/debian/php-ease-bootstrap-widgets/
+/debian/php-ease-bootstrap-widgets-doc/
+/debian/.debhelper/
+/debian/php-ease-bootstrap-widgets.debhelper.log
+/debian/php-ease-bootstrap-widgets-doc.debhelper.log
+/debian/php-ease-bootstrap-widgets-doc.substvars
+/debian/php-ease-bootstrap-widgets.substvars
+/debian/files

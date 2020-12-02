@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ease\\TWB\\Widgets\\": "src/Ease/ui"
+            "Ease\\TWB\\Widgets\\": "src/Ease/TWB/Widgets"
         }
     },
     "autoload-dev": {
@@ -20,12 +20,12 @@
             "Test\\Ease\\TWB\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease/TWB"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "vitexsoftware/ease-bootstrap": "*"
+        "vitexsoftware/ease-bootstrap": ">=0.4.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": ">=9"
     },
     "type": "library",
     "homepage": "http://v.s.cz/ease.php",
