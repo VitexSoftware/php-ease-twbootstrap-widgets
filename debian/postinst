@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 
-        composer-global-update deb/ease-bootstrap-widgets
+        composer-global-update ease-bootstrap-widgets
 
     ;;
 

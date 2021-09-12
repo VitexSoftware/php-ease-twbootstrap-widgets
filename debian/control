@@ -1,4 +1,4 @@
-Source: php-ease-bootstrap-widgets
+Source: php-vitexsoftware-ease-bootstrap-widgets
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
@@ -6,15 +6,15 @@ Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
 Homepage: https://github.com/VitexSoftware/Ease-PHP-Bricks
 
-Package: php-ease-bootstrap-widgets
-Depends: ${misc:Depends},php-ease-bootstrap,libjs-bootstrap-switch
+Package: php-vitexsoftware-ease-bootstrap-widgets
+Depends: ${misc:Depends},php-vitexsoftware-ease-bootstrap,libjs-bootstrap-switch
 Architecture: all
 Section: web
 Priority: optional
 Description: Simple PHP framework Bricks
  Addon components for EasePHP Framework
 
-Package: php-ease-bootstrap-widgets-doc
+Package: php-vitexsoftware-ease-bootstrap-widgets-doc
 Depends: ${misc:Depends},
 Suggests: www-browser
 Architecture: all
