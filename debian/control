@@ -14,8 +14,8 @@ Priority: optional
 Description: Simple PHP framework Bricks
  Addon components for EasePHP Framework
 
-Package: php-vitexsoftware-ease-bootstrap-widgets-doc,phpdocumentor
-Depends: ${misc:Depends},
+Package: php-vitexsoftware-ease-bootstrap-widgets-doc
+Depends: ${misc:Depends},phpdocumentor
 Suggests: www-browser
 Architecture: all
 Section: doc
