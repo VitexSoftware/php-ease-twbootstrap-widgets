@@ -1,5 +1,5 @@
 Source: php-vitexsoftware-ease-bootstrap-widgets
-Build-Depends: debhelper (>= 7.0.50~), phpunit
+Build-Depends: debhelper (>= 7.0.50~), phpunit, phpdocumentor
 Standards-Version: 3.8.4
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
@@ -15,7 +15,7 @@ Description: Simple PHP framework Bricks
  Addon components for EasePHP Framework
 
 Package: php-vitexsoftware-ease-bootstrap-widgets-doc
-Depends: ${misc:Depends},phpdocumentor
+Depends: ${misc:Depends}
 Suggests: www-browser
 Architecture: all
 Section: doc
