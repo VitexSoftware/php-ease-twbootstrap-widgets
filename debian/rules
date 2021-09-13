@@ -6,12 +6,26 @@ BUILD_DIR:=build
 %:
 	dh $@
 
+override_dh_clean:
+	rm -rf debian/test/vendor .phpdoc
+	dh_clean
+
+override_dh_prep:
+	mkdir -p docs
+	rm -f docs/* -r
+	phpdoc -d src --title "Vitex Software's Ease Html"
+	mkdir -p docs
+	mv .phpdoc/build/* docs
+	dh_prep
+
+
 override_dh_auto_test:
-	echo tests temporarly skipped for now in rules file
+	composer update
+	vendor/bin/phpunit --bootstrap tests/Bootstrap.php --configuration phpunit.xml tests/src/
+#	dh_auto_test
 
 override_dh_install:
-	#./debian/apigendoc.sh
-	jq '.address = "'`dpkg-parsechangelog | sed -n 's/^Version: //p'`'"' debian/composer.json |sponge debian/composer.json
+	jq '.version = "'`dpkg-parsechangelog | sed -n 's/^Version: //p'| sed 's/~.*//'`'"'  debian/composer.json |sponge debian/composer.json
 	dh_install
 	sed -e "/includeCss/c\        \$$this->includeCss(\'\/javascript\/bootstrap\/css\/bootstrap-switch.css\');" -i debian/php-vitexsoftware-ease-bootstrap-widgets/usr/share/php/EaseTWBWidgets/TWBSwitch.php
 	sed -e "/includeJavascript/c\        \$$this->includeJavascript(\'\/javascript\/bootstrap\/js\/bootstrap-switch.js\');"   -i debian/php-vitexsoftware-ease-bootstrap-widgets/usr/share/php/EaseTWBWidgets/TWBSwitch.php 

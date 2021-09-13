@@ -23,5 +23,6 @@ define('DB_USERNAME', 'easetest');
 define('DB_PORT', 5432);
 define('DB_TYPE', 'pgsql');
 
-\Ease\Shared::user(new Ease\Anonym());
-\Ease\Shared::webPage(new Ease\TWB\WebPage());
+\Ease\User::singleton();
+\Ease\TWB\WebPage::singleton("EaseTWBWidgets");
+

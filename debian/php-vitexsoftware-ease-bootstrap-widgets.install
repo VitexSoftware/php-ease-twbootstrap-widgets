@@ -1,0 +1,4 @@
+
+src/Ease/TWB/Widgets/*.php      /usr/share/php/EaseTWBWidgets
+debian/composer.json	    	/usr/share/php/EaseTWBWidgets
+
