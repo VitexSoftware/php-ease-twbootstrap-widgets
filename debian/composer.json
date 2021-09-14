@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "deb/ease-bootstrap4": "*"
+    "deb/ease-bootstrap": "*"
   },
   "repositories": [
     {
