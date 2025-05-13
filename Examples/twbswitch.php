@@ -4,7 +4,7 @@
  *
  * 
  * @author     Vítězslav Dvořák <vitex@arachne.cz>
- * @copyright  2016 Vitex Software
+ * @copyright  2016-2024 Vitex Software
  */
 
 include '../vendor/autoload.php';

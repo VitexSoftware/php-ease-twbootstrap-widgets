@@ -1,10 +1,16 @@
 <?php
+
+declare(strict_types=1);
+
 /**
- * EasePHPbricks - Mainpage Large Icons Menu
+ * This file is part of the Ease TWBootstrap4 Widgets package
  *
- * 
- * @author     Vítězslav Dvořák <vitex@arachne.cz>
- * @copyright  2016-2017 Vitex Software
+ * https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets
+ *
+ * (c) Vítězslav Dvořák <http://vitexsoftware.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace Ease\TWB\Widgets;
@@ -13,61 +19,56 @@ class MainPageMenu extends \Ease\Html\DivTag
 {
     /**
      * Sem se přidávají položky.
-     *
-     * @var \Ease\Html\DivTag
      */
-    public $row = null;
+    public \Ease\Html\DivTag $row = null;
 
     /**
      * Rámeček nabídky.
-     *
-     * @var \Ease\Html\DivTag
      */
-    public $well = null;
+    public \Ease\Html\DivTag $well = null;
 
-    /**
-     * 
-     */
     public function __construct()
     {
         parent::__construct(
-            null, null,
+            null,
+            null,
             [
-            'class' => 'container',
-            'style' => 'margin: auto;',
-            ]
+                'class' => 'container',
+                'style' => 'margin: auto;',
+            ],
         );
         $this->well = new \Ease\TWB\Well();
-        $this->row  = new \Ease\TWB\Row();
+        $this->row = new \Ease\TWB\Row();
     }
 
     /**
-     * Add Item to mainpage Menu
-     * 
+     * Add Item to mainpage Menu.
+     *
      * @param string $image url
      * @param string $title caption
      * @param string $url   image link href url
-     * 
+     *
      * @return \Ease\Html\ATag
-     */    public function addMenuItem($image, $title, $url)
+     */ public function addMenuItem($image, $title, $url)
     {
         return $this->row->addItem(
-                new \Ease\Html\ATag(
+            new \Ease\Html\ATag(
                 $url,
-                new \Ease\TWB\Col(2,
-                "$title<center><img class=\"img-responsive\" src=\"$image\" alt=\"$title\"></center>")
-                )
+                new \Ease\TWB\Col(
+                    2,
+                    "{$title}<center><img class=\"img-responsive\" src=\"{$image}\" alt=\"{$title}\"></center>",
+                ),
+            ),
         );
     }
 
     /**
-     * Assembly widget
+     * Assembly widget.
      */
-    public function finalize()
+    public function finalize(): void
     {
         $this->well->addItem($this->row);
         $this->addItem($this->well);
         parent::finalize();
     }
-    
 }

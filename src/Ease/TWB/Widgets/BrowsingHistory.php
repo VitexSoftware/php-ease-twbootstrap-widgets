@@ -1,34 +1,42 @@
 <?php
+
+declare(strict_types=1);
+
 /**
- * EasePHP Bricks - Browsing History.
+ * This file is part of the Ease TWBootstrap4 Widgets package
  *
- * @author     Vítězslav Dvořák <vitex@arachne.cz>
- * @copyright  2016-2018 Vitex Software
+ * https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets
+ *
+ * (c) Vítězslav Dvořák <http://vitexsoftware.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace Ease\TWB\Widgets;
 
 /**
- * Show history of visited pages in app
- * 
+ * Show history of visited pages in app.
+ *
  * @param mixed $content
  * @param array $properties
  */
 class BrowsingHistory extends \Ease\Html\DivTag
 {
-
     /**
-     * Show history of visited pages in app
-     * 
+     * Show history of visited pages in app.
+     *
      * @param mixed $content
      * @param array $properties
      */
     public function __construct($content = null, $properties = null)
     {
         $webPage = \Ease\WebPage::singleton();
-        if (is_null($properties)) {
+
+        if (null === $properties) {
             $properties = [];
         }
+
         $properties['id'] = 'history';
 
         if (!isset($_SESSION['history'])) {
@@ -37,33 +45,42 @@ class BrowsingHistory extends \Ease\Html\DivTag
 
         parent::__construct(null, $properties);
 
-        $currentUrl   = \Ease\Document::phpSelf(false);
+        $currentUrl = \Ease\Document::phpSelf(false);
         $currentTitle = $webPage->pageTitle;
 
-
         foreach ($_SESSION['history'] as $hid => $page) {
-            if ($page['url'] == $currentUrl) {
+            if ($page['url'] === $currentUrl) {
                 unset($_SESSION['history'][$hid]);
             }
         }
-        array_unshift($_SESSION['history'],
-            ['url' => $currentUrl, 'title' => $currentTitle]);
+
+        array_unshift(
+            $_SESSION['history'],
+            ['url' => $currentUrl, 'title' => $currentTitle],
+        );
+
         foreach ($_SESSION['history'] as $bookmark) {
-            $this->addItem(new \Ease\Html\SpanTag(new \Ease\Html\ATag($bookmark['url'],
-                [new \Ease\TWB\GlyphIcon('bookmark'), ' '.$bookmark['title']]),
-                ['class' => 'hitem']));
+            $this->addItem(new \Ease\Html\SpanTag(
+                new \Ease\Html\ATag(
+                    $bookmark['url'],
+                    [new \Ease\TWB\GlyphIcon('bookmark'), ' '.$bookmark['title']],
+                ),
+                ['class' => 'hitem'],
+            ));
         }
     }
 
     /**
-     * Add Css
+     * Add Css.
      */
-    function finalize()
+    public function finalize(): void
     {
-        $this->addCss('
+        $this->addCss(<<<'EOD'
+
             .hitem { background-color: #B5FFC4; margin: 5px; border-radius: 15px 50px 30px 5px; padding-left: 3px; padding-right: 10px; }
             #history { margin: 5px; }
-            ');
+
+EOD);
         parent::finalize();
     }
 }

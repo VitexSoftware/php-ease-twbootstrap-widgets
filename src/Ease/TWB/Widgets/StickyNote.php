@@ -1,23 +1,31 @@
 <?php
+
+declare(strict_types=1);
+
 /**
- * EasePHP Bricks - Sticky note.
+ * This file is part of the Ease TWBootstrap4 Widgets package
  *
- * @author     Vítězslav Dvořák <vitex@arachne.cz>
- * @copyright  2016-2018 Vitex Software
+ * https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets
+ *
+ * (c) Vítězslav Dvořák <http://vitexsoftware.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace Ease\TWB\Widgets;
+
 /**
- * Description of StickyNote
+ * Description of StickyNote.
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  */
 class StickyNote extends \Ease\Html\DivTag
 {
-
-    public function finalize()
+    public function finalize(): void
     {
-        $this->addCSS('
+        $this->addCSS(<<<'EOD'
+
 .sticky {
   right: 0;
   z-index: 150;
@@ -52,8 +60,10 @@ class StickyNote extends \Ease\Html\DivTag
   border-left: solid 8px #dddd33;
   border-right: solid 8px transparent;
   border-top: solid 8px transparent;
-}            
-');
+}
+
+EOD);
         $this->addTagClass('sticky');
+        parent::finalize();
     }
 }

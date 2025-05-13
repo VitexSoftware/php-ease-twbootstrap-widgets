@@ -26,3 +26,5 @@ composer.lock
 /debian/php-ease-bootstrap-widgets-doc.substvars
 /debian/php-ease-bootstrap-widgets.substvars
 /debian/files
+/tests/.phpunit.result.cache
+/.build/
