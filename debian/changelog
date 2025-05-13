@@ -1,4 +1,10 @@
-php-vitexsoftware-ease-bootstrap-widgets (1.0) UNRELEASED; urgency=medium
+php-vitexsoftware-ease-bootstrap-widgets (1.1.0) UNRELEASED; urgency=medium
+
+  * php8.1+ support added
+
+ -- vitex <info@vitexsoftware.cz>  Tue, 13 May 2025 10:05:59 +0200
+
+php-vitexsoftware-ease-bootstrap-widgets (1.0) unstable; urgency=medium
 
   [ Vítězslav Dvořák ]
   * Selectized
@@ -13,7 +19,7 @@ php-vitexsoftware-ease-bootstrap-widgets (1.0) UNRELEASED; urgency=medium
   [ vitex ]
   * v1.0 release
 
- -- vitex <info@vitexsoftware.cz>  Mon, 13 Sep 2021 20:48:37 +0200
+ -- vitex <info@vitexsoftware.cz>  Tue, 13 May 2025 10:05:40 +0200
 
 ease-framework-bricks (0.7) UNRELEASED; urgency=medium
 
