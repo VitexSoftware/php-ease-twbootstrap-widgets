@@ -20,7 +20,8 @@ override_dh_prep:
 
 
 override_dh_auto_test:
-	composer update
+	# Note: Tests may require dependencies. If needed, install them via debian/control Build-Depends
+	# composer update removed - use phpab for autoloader generation
 #	vendor/bin/phpunit --bootstrap tests/Bootstrap.php --configuration phpunit.xml tests/src/
 #	dh_auto_test
 

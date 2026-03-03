@@ -1,0 +1,11 @@
+Package: php-vitexsoftware-ease-bootstrap-widgets
+Version: 1.1.0
+Architecture: all
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Installed-Size: 58
+Depends: php-vitexsoftware-ease-bootstrap, libjs-bootstrap-switch
+Section: web
+Priority: optional
+Homepage: https://github.com/VitexSoftware/Ease-PHP-Bricks
+Description: Simple PHP framework Bricks
+ Addon components for EasePHP Framework
