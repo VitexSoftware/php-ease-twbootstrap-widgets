@@ -1,4 +1,4 @@
-# WARP.md - Working AI Reference for php-vitexsoftware-ease-twbootstrap3-widgets
+# AGENTS.md - Working AI Reference for php-vitexsoftware-ease-twbootstrap3-widgets
 
 ## Project Overview
 **Type**: PHP Project/Debian Package
