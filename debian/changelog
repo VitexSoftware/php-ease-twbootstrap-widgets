@@ -1,6 +1,7 @@
 php-vitexsoftware-ease-bootstrap-widgets (1.1.0) UNRELEASED; urgency=medium
 
   * php8.1+ support added
+  * Ship static debian/autoload.php; drop deprecated composer-global-update postinst
 
  -- vitex <info@vitexsoftware.cz>  Tue, 13 May 2025 10:05:59 +0200
 
